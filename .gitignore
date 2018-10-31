@@ -1,0 +1,18 @@
+# General
+AUTHORS
+Authors
+ChangeLog
+*.log
+dist/*
+
+# Python
+*.py[cod]
+.venv
+.tox
+*.egg-info/
+
+# Documentation
+doc*/build/*
+
+# MacOS
+*.DS_Store
