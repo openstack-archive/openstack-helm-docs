@@ -13,6 +13,7 @@ dist/*
 
 # Documentation
 doc*/build/*
+releasenotes/build/*
 
 # MacOS
 *.DS_Store
