@@ -12,13 +12,6 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-
-import pbr.version
-
-sys.path.insert(0, os.path.abspath('../..'))
-
 
 # -- Project information -----------------------------------------------------
 
@@ -26,21 +19,15 @@ project = 'OpenStack-Helm'
 copyright = '2018, OpenStack-Helm Authors'
 author = 'OpenStack-Helm Authors'
 
-version_info = pbr.version.VersionInfo('openstack-helm-docs')
-
-# The short X.Y version
-version = version_info.canonical_version_string()
-# The full version, including alpha/beta/rc tags
-release = version_info.version_string_with_vcs()
+# The repo is unversioned
+version = ''
+release = ''
 
 
 # -- General configuration ---------------------------------------------------
 
 # OpenStackDocsTheme options
 repository_name = 'openstack/openstack-helm-docs'
-bug_project = '64'
-bug_tag = ''
-html_last_updated_fmt = '%Y-%m-%d %H:%M'
 use_storyboard = True
 
 # If your documentation needs a minimal Sphinx version, state it here.

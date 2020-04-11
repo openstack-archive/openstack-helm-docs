@@ -25,9 +25,6 @@ author = 'OpenStack Helm Docs Authors'
 
 # openstackdocstheme options
 repository_name = 'openstack/openstack-helm-docs'
-bug_project = '64'
-bug_tag = ''
-html_last_updated_fmt = '%Y-%m-%d %H:%M'
 use_storyboard = True
 
 # The short X.Y version
