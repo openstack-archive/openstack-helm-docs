@@ -10,7 +10,7 @@ Welcome to OpenStack-Helm's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   contributor/contributing
 
 Indices and tables
 ==================
