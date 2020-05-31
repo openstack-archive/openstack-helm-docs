@@ -24,8 +24,9 @@ copyright = '2018, OpenStack Developers'
 author = 'OpenStack Helm Docs Authors'
 
 # openstackdocstheme options
-repository_name = 'openstack/openstack-helm-docs'
-use_storyboard = True
+openstackdocs_repo_name = 'openstack/openstack-helm-docs'
+openstackdocs_auto_name = False
+openstackdocs_use_storyboard = True
 
 # The short X.Y version
 version = ''

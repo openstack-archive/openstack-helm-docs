@@ -27,8 +27,9 @@ release = ''
 # -- General configuration ---------------------------------------------------
 
 # OpenStackDocsTheme options
-repository_name = 'openstack/openstack-helm-docs'
-use_storyboard = True
+openstackdocs_repo_name = 'openstack/openstack-helm-docs'
+openstackdocs_auto_name = False
+openstackdocs_use_storyboard = True
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
@@ -66,7 +67,7 @@ language = None
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'native'
 
 
 # -- Options for HTML output -------------------------------------------------
