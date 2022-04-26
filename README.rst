@@ -2,9 +2,14 @@
 OpenStack-Helm-Docs
 ===================
 
-This repository hosts the documentation for the
-`OpenStack-Helm project <https://github.com/openstack/openstack-helm>`_.
+This project is no longer maintained.
 
-Contributors are encouraged to join IRC: ``#openstack-helm`` on oftc.
+The contents of this repository are still available in the Git
+source code management system.  To see the contents of this
+repository before it reached its end of life, please check out the
+previous commit with "git checkout HEAD^1".
 
-For information on contributing to OpenStack-Helm, see ``CONTRIBUTING.rst``.
+For any further questions, please email
+openstack-discuss@lists.openstack.org or join #openstack-dev on
+OFTC.
+
